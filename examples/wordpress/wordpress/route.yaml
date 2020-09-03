@@ -1,7 +1,7 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: wordpress
+  name: console
   namespace: wordpress-app
 spec:
   path: /
