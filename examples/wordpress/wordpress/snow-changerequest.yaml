@@ -1,0 +1,14 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: service-now-update1
+spec:
+  tower_auth_secret: jnp-toweraccess
+  job_template_name: Service Now test
+  extra_vars:
+    #snow_record variables
+    # 
+    #data variables
+    sn_severity: 2
+    sn_priority: 2
